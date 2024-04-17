@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Nagłówek */
+header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #E6E6FA;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+/* Pasek nawigacyjny */
+nav {
+  background-color: #C149D6;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav ul li a:hover {
+  color: #ff0;
+}
+
+/* Główna treść */
+main {
+  padding: 20px;
+}
+
+.background {
+  background-image: url('https://fastly.picsum.photos/id/109/4287/2392.jpg?hmac=K5ytllhfakgsUEDFnY5ujHIGJTzELPQgVJjZMpRlfJY'); 
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 20px;
+}
+article {
+  margin-bottom: 30px;
+}
+
+article h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+article p {
+  margin-bottom: 10px;
+}
+
+article img {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 100%;
+  height: auto;
+}
+
+article time {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Stopka */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: #fff;
