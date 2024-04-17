@@ -8,7 +8,7 @@
 header {
   text-align: center;
   padding: 20px 0;
-  background-color: #E6E6FA;
+  background-color: #D782BA;
   color: #fff;
 }
 
@@ -18,7 +18,7 @@ header h1 {
 
 /* Pasek nawigacyjny */
 nav {
-  background-color: #C149D6;
+  background-color: #EEB1D5;
 }
 
 nav ul {
@@ -47,11 +47,7 @@ main {
 }
 
 .background {
-  background-image: url('https://fastly.picsum.photos/id/109/4287/2392.jpg?hmac=K5ytllhfakgsUEDFnY5ujHIGJTzELPQgVJjZMpRlfJY'); 
-  background-repeat: repeat;
-  background-position: center;
-  background-size: cover;
-  padding: 20px;
+  background-color: #E7D5E2;
 }
 article {
   margin-bottom: 30px;
@@ -82,5 +78,5 @@ article time {
 footer {
   text-align: center;
   padding: 20px 0;
-  background-color: #333;
+  background-color: #E0EFDA;
   color: #fff;
