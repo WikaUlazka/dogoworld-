@@ -47,7 +47,7 @@ main {
 }
 
 .background {
-  background-color: #E7D5E2;
+  background-color: #FFFFFF;
 }
 article {
   margin-bottom: 30px;
@@ -62,11 +62,31 @@ article p {
   margin-bottom: 10px;
 }
 
+
+
 article img {
+  
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 100%;
   height: auto;
+}
+
+@media (width <= 480px) {
+  article img {
+  
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 10%;
+    height: auto;
+  }
+
+  .img-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
 }
 
 article time {
@@ -79,4 +99,5 @@ footer {
   text-align: center;
   padding: 20px 0;
   background-color: #E0EFDA;
-  color: #fff;
+  color: #110101;
+}
