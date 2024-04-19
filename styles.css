@@ -8,7 +8,7 @@
 header {
   text-align: center;
   padding: 20px 0;
-  background-color: #D782BA;
+  background-color: #d782ba;
   color: #fff;
 }
 
@@ -18,7 +18,7 @@ header h1 {
 
 /* Pasek nawigacyjny */
 nav {
-  background-color: #EEB1D5;
+  background-color: #eeb1d5;
 }
 
 nav ul {
@@ -47,7 +47,7 @@ main {
 }
 
 .background {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 article {
   margin-bottom: 30px;
@@ -62,19 +62,15 @@ article p {
   margin-bottom: 10px;
 }
 
-
-
 article img {
-  
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   max-width: 100%;
   height: auto;
+  box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 1);
 }
 
 @media (width <= 480px) {
   article img {
-  
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     max-width: 10%;
@@ -86,7 +82,6 @@ article img {
     align-items: center;
     justify-content: center;
   }
-  
 }
 
 article time {
@@ -98,6 +93,6 @@ article time {
 footer {
   text-align: center;
   padding: 20px 0;
-  background-color: #E0EFDA;
+  background-color: #e0efda;
   color: #110101;
 }
